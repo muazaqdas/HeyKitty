@@ -1,5 +1,4 @@
 .container-fluid{
-<<<<<<< HEAD
     padding: 2% 15% ;
 }
 
@@ -31,26 +30,10 @@ body{
 }
 
 
-=======
-    padding: 3% 15% ;
-}
-
-img{
-    padding-right: 0px;
-    margin-right: 0px;
-}
-
-
-.nav-Text-color{
-    color: #381818 !important
-}
-
->>>>>>> df9c3f054e639076a7ba76c5f5f24bcb21e7df4e
 #title{
     background-color: #FFEBCC;
 }
 
-<<<<<<< HEAD
 /* Title Image */
 
 .title-img{
@@ -67,32 +50,10 @@ img{
 }
 
 
-
-
-
 h1{
     color: #ff6075;
     font-weight: 900;
     line-height: 1.5;
     font-size: 3.5rem;
     padding-top: 10% ;
-=======
-h1{
-    color: #FF9999;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    line-height: 1.5;
-    size: 3rem;
-}
-
-.navbar-brand{
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    padding-left: 10px;
-}
-
-.nav-item{
-    font-family: 'Ubuntu';
-    font-weight: 700;
->>>>>>> df9c3f054e639076a7ba76c5f5f24bcb21e7df4e
 }
