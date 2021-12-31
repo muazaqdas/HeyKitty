@@ -120,6 +120,17 @@ h1{
     margin: 2%;
 }
 
+/* Press */
+
+#press{
+    padding: 3% 5%;
+    background-color: #FFEBCC;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 30px ;
+}
 
 /* Footer Section */
 
