@@ -54,7 +54,7 @@
 }
 
 
-h1{
+#title h1{
     color: #ff6075;
     font-family: 'Montserrat';
     font-weight: 900;
@@ -65,9 +65,15 @@ h1{
 
 /* Features Section */
 
+#features{
+    padding: 3% 10%;
+}
 .feature-icon{
     color: #ff6075;
     margin-bottom: 1rem;
+    padding: 0 6%;
+
+
 }
 
 .feature-icon:hover{
@@ -77,7 +83,6 @@ h1{
 .feature-box {
     text-align: center;
     padding: 5%;
-    /* font-family: 'Montserrat'; */
 }
 
 
@@ -132,6 +137,50 @@ h1{
     margin: 20px 30px ;
 }
 
+/* Pricing Section */
+#pricing{
+    padding:3% 8% ;
+}
+
+#pricing h1{
+    color: #ff6075;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+#pricing h3{
+    color: #1A374D;
+    font-family: 'Ubuntu';
+}
+
+#pricing h2{
+    font-size: 2.5rem;
+}
+
+#pricing p{
+    color: #1A374D;
+}
+
+.btn-outline-dark{
+    
+    border-color: #1A374D;
+    color:#1A374D;
+}
+.btn-outline-dark:hover{
+    background-color:#1A374D !important;
+    border-color: #1A374D;
+    color:#FFEBCC;
+}
+
+.price-card{
+    padding: 2%;
+
+}
+.card{
+    text-align: center;
+}
 /* Footer Section */
 
 #footer{
