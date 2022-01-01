@@ -1,15 +1,15 @@
 .container-fluid{
-    padding: 2% 15% ;
+    padding: 2% 15% 7%;
 }
-
-/* body{
-    font-family: 'Montserrat';
-} */
 
 /* Navigation Bar */
 
+
+h1:hover{
+    color: #ff6075 !important;
+}
 .navbar{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 .navbar-brand{
     font-family: 'Ubuntu';
@@ -17,9 +17,15 @@
     font-size: 2rem;
     margin-top: 0.35rem;
 }
+.navbar-brand:hover{
+    color: #ff6075;
+}
 
 .fa-paw{
     transform: rotate(10deg);
+}
+.fa-paw:hover{
+    color: #ff6075;
 }
 
 .nav-item{
@@ -33,6 +39,15 @@
     color: #1A374D !important;
 }
 
+.dropdown-mstyle{
+    border-color: #1A374D;
+    background-color: #FFEBCC;
+    color: #1A374D;
+}
+.dropdown-style:hover{
+    background-color: #1A374D;
+    color: #c49b5d;
+}
 
 #title{
     background-color: #FFEBCC;
@@ -41,35 +56,37 @@
 /* Title Image */
 
 .title-img{
-    margin-right: 0px;
-    padding: 5% 0 15% 0 ;
-    height: 110%;
-    transform: rotate(20deg);
+    height: 85%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
 }
 
 /* Download Button */
 
 .download-button{
-    margin: 5% 3% 5% 0;
+    margin: 5% 3% 8% 3%;
 }
 
 
 #title h1{
-    color: #ff6075;
+    color: #1A374D;
     font-family: 'Montserrat';
     font-weight: 900;
     line-height: 1.5;
     font-size: 3.5rem;
-    padding-top: 10% ;
+    padding-top: 15% ;
 }
 
 /* Features Section */
 
 #features{
-    padding: 3% 10%;
+    padding: 5% 10% 3% 10%;
+    position: relative;
+    background-color: #fff;
 }
 .feature-icon{
-    color: #ff6075;
+    color: #1A374D;
     margin-bottom: 1rem;
     padding: 0 6%;
 
@@ -77,7 +94,7 @@
 }
 
 .feature-icon:hover{
-    color: #1A374D;
+    color: #ff6075;
 }
 
 .feature-box {
@@ -106,6 +123,10 @@
 
 #testimonials em{
     color: grey ;
+}
+
+#testimonials h3:hover{
+    color: #ff6075;
 }
 
 .carousel-item{
@@ -143,7 +164,7 @@
 }
 
 #pricing h1{
-    color: #ff6075;
+    color: #1A374D;
     font-family: 'Montserrat';
     font-weight: 900;
     line-height: 1.5;
@@ -163,12 +184,13 @@
     color: #1A374D;
 }
 
-.btn-outline-dark{
+/* Custom button styled */
+.btn-mystyle{
     
     border-color: #1A374D;
     color:#1A374D;
 }
-.btn-outline-dark:hover{
+.btn-mystyle:hover{
     background-color:#1A374D !important;
     border-color: #1A374D;
     color:#FFEBCC;
@@ -181,8 +203,71 @@
 .card{
     text-align: center;
 }
+
+/* Action Section */
+
+#action{
+    background-color:#1A374D;
+    padding: 3% 15%;
+    color:#FFEBCC;
+    text-align: center;
+}
+
+.action-btn{
+
+    padding: 1% 5%;
+    background-color: #FFEBCC;
+    color: #1A374D;
+   
+}
+
+.action-btn:hover{
+    background-color: #fff;
+    color: #ff6075;
+   
+}
+
 /* Footer Section */
 
 #footer{
     text-align: center;
+    padding: 7% 0;
+    color: #c49b5d;
+}
+
+.footer-h:hover{
+    color: #ff6075;
+}
+
+.footer-icon{
+    padding: 1.5% 0.6%;
+    /* color: #c49b5d; */
+}
+
+@media (max-width: 1028px ) {
+    #title{
+        text-align: center;
+
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title h1{
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    #testimonials h3{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    #pricing h1{
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    #pricing h2{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
 }
