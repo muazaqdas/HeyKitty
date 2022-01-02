@@ -1,6 +1,17 @@
+body{
+    text-align: center;
+}
 .container-fluid{
     padding: 2% 15% 7%;
 }
+
+/* Common Hover Styling */
+
+.navbar-brand:hover, .fa-paw:hover,.feature-icon:hover,#testimonials h3:hover,.footer-h:hover
+{
+    color: #ff6075;
+}
+
 
 /* Navigation Bar */
 
@@ -17,15 +28,10 @@ h1:hover{
     font-size: 2rem;
     margin-top: 0.35rem;
 }
-.navbar-brand:hover{
-    color: #ff6075;
-}
+
 
 .fa-paw{
     transform: rotate(10deg);
-}
-.fa-paw:hover{
-    color: #ff6075;
 }
 
 .nav-item{
@@ -48,9 +54,11 @@ h1:hover{
     background-color: #1A374D;
     color: #c49b5d;
 }
+/* Title Section */
 
 #title{
     background-color: #FFEBCC;
+    text-align: left;
 }
 
 /* Title Image */
@@ -65,7 +73,7 @@ h1:hover{
 /* Download Button */
 
 .download-button{
-    margin: 5% 3% 8% 3%;
+    margin: 5% 3% 8% 0;
 }
 
 
@@ -93,15 +101,9 @@ h1:hover{
 
 }
 
-.feature-icon:hover{
-    color: #ff6075;
-}
-
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
-
 
 .feature-box h3{
     
@@ -116,8 +118,6 @@ h1:hover{
 
 #testimonials{
     background-color: #FFEBCC;
-    
-    text-align: center;
     color: #1A374D;
 }
 
@@ -125,9 +125,6 @@ h1:hover{
     color: grey ;
 }
 
-#testimonials h3:hover{
-    color: #ff6075;
-}
 
 .carousel-item{
     padding: 7% 15%;
@@ -151,7 +148,6 @@ h1:hover{
 #press{
     padding: 3% 5%;
     background-color: #FFEBCC;
-    text-align: center;
 }
 .press-img{
     width: 15%;
@@ -159,6 +155,7 @@ h1:hover{
 }
 
 /* Pricing Section */
+
 #pricing{
     padding:3% 8% ;
 }
@@ -185,6 +182,7 @@ h1:hover{
 }
 
 /* Custom button styled */
+
 .btn-mystyle{
     
     border-color: #1A374D;
@@ -200,17 +198,13 @@ h1:hover{
     padding: 2%;
 
 }
-.card{
-    text-align: center;
-}
 
-/* Action Section */
+/* Call to Action Section */
 
 #action{
     background-color:#1A374D;
     padding: 3% 15%;
     color:#FFEBCC;
-    text-align: center;
 }
 
 .action-btn{
@@ -230,19 +224,16 @@ h1:hover{
 /* Footer Section */
 
 #footer{
-    text-align: center;
     padding: 7% 0;
     color: #c49b5d;
 }
 
-.footer-h:hover{
-    color: #ff6075;
-}
 
 .footer-icon{
     padding: 1.5% 0.6%;
     /* color: #c49b5d; */
 }
+
 
 @media (max-width: 1028px ) {
     #title{
