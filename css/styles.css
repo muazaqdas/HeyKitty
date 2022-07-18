@@ -54,6 +54,12 @@ h1:hover{
     background-color: #1A374D;
     color: #c49b5d;
 }
+
+.githubButton{
+    display: flex;
+    width: 66px;
+    padding: 5px 9px;
+}
 /* Title Section */
 
 #title{
@@ -224,7 +230,7 @@ h1:hover{
 /* Footer Section */
 
 #footer{
-    padding: 7% 0;
+    padding: 20px 0;
     color: #c49b5d;
 }
 
